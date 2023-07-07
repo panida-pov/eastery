@@ -97,7 +97,7 @@ const SearchBar = ({getData}) => {
         </div>
       </div>
       <div className={styles.SearchBarStatus}>
-        <p>Search by: <span>{(Object.keys(sortByOptions).find(key => sortByOptions[key] === sortBy))?.toUpperCase() || '-'}</span> |&nbsp;</p>
+        <p>Sort by: <span>{(Object.keys(sortByOptions).find(key => sortByOptions[key] === sortBy))?.toUpperCase() || '-'}</span> |&nbsp;</p>
         <p>Search term: <span>{term?.toUpperCase() || '-'}</span> |&nbsp;</p>
         <p>Search location: <span>{location?.toUpperCase() || '-'}</span>&nbsp;&nbsp;</p>
       </div>
