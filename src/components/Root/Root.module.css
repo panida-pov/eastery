@@ -1,0 +1,80 @@
+html {
+  font-size: 18px;
+}
+
+html,
+body {
+  margin: 0;
+  background-color: #F2F2F2;
+}
+
+@media only screen and (max-width: 560px) {
+  html {
+    font-size: 15px;
+  }
+}
+
+input:focus {
+  outline: none;
+}
+
+.App {
+  font-family: "Work Sans", sans-serif;
+}
+
+.App h2 {
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  text-align: left;
+  font-family: 'Berlin Sans FB Demi', sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: #35c6bc;
+  padding: 0.6rem 0.7rem;
+  background-color: #262626;
+}
+
+.App span {
+  color: #dee3e2
+}
+
+.arrow{
+  position: fixed;
+  bottom: 2%;
+  right: 1%;
+}
+
+.arrow i {
+  display: flex;
+  color: #767171;
+  font-size: 2rem;
+  border-radius: 50%;
+  background-color: rgba(217, 217, 217, 0.3);
+  width: 2rem;
+  height: 2rem;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.arrow i:hover {
+  background-color: rgba(217, 217, 217, 0.8);
+}
+
+.absoluteFooter {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  bottom: 2%;
+  font-size: 0.7rem;
+  color: #262626;
+}
+
+.staticFooter {
+  width: 100%;
+  height: 1.4rem;
+  text-align: center;
+  font-size: 0.7rem;
+  color: #262626;
+}
