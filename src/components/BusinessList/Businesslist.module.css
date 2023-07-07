@@ -1,0 +1,14 @@
+.BusinessList {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 2rem 5%;
+    min-height: 8rem;
+  }
+
+  .resultNotFound {
+    color: #767171;
+    font-weight: 600;
+    text-align: center;
+    line-height: 1.5rem;
+  }
