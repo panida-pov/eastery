@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+# Eastery
+## Description
+Eastery is an interactive front-end website built with react framework. It allows users to easily find their restaurants by typing in the keyword and the location they are looking for. As this project does not include the back-end part, the information of each restaurant will be fetched from [Yelp Fusion API](https://docs.developer.yelp.com/reference/v3_business_search) and displayed on the browser. Hope you enjoy!
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Features
+* Users can type keyword and location in the search fields to find their target restaurants
+* Users can select their preferred sorting option (`best match`/`heighest rated`/`most reviewed`) to sort the restaurants
+* Current search status is shown to the users
+* The image of the restaurant, the address, along with reviews and ratings are displayed as search results
+* Users can redirect to the original website by clicking on the image of the restaurant of interest
+* Searching for the restaurant using the search query is supported
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Step-by-step Guides
+1. Clone the repo
+   ```
+   git clone https://github.com/panida-pov/eastery.git
+   ```
+2. Install NPM packages 
+   ```
+   npm install
+   ```
+3. Create `.env` file from `.env.example`
+4. Create an account and get your API key [here](https://www.yelp.com/developers/v3/manage_app)
+5. Insert your API key in `.env`
+6. Use CORS Anywhere by clicking on [Request temporary access to the demo server](https://cors-anywhere.herokuapp.com/corsdemo) button
+7. Run the project
+    ```
+   npm start
+   ```
+## Screenshots
+* Search fields
+ 
+  ![Before search](https://github.com/panida-pov/eastery/blob/main/screenshots/EasteryPage1.jpg?raw=true "Before search")
+  
+* Search results
+  
+  ![After search](https://github.com/panida-pov/eastery/blob/main/screenshots/EasteryPage2.jpg?raw=true "After search")
