@@ -1,0 +1,75 @@
+.Business {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 22rem;
+  margin: 1rem 0.5rem;
+  padding: 1rem;
+  border-radius: 8px;
+  background-color: #E6E6E6;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.Business .imageContainer {
+  width: 10rem;
+  height: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  background: #000;
+}
+
+.imageContainer img {
+  width: 100%;
+}
+
+.BusinessInfo {
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 0.5rem;
+  width: 11.5rem;
+  font-weight: 200;
+}
+.BusinessInfo h3 {
+  font-size: 1.1rem;
+  display: block;
+  color: #404040;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.BusinessInfo h4 {
+  font-size: 0.75rem;
+  color: #237F78;
+  font-family: 'Encode Sans', sans-serif;
+  margin-top: 0.2rem;
+  margin-bottom: 0.6rem;
+}
+
+.BusinessInfo {
+  font-size: 0.85rem;
+}
+
+.BusinessAddress {
+  margin-bottom: 1rem;
+}
+
+.BusinessReviews {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.BusinessReviews i {
+  color:#237F78;
+}
+
+.BusinessPrice {
+  letter-spacing: -0.15rem;
+  font-weight: 700;
+  color:#237F78;
+}
