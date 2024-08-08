@@ -22,8 +22,7 @@ Eastery is an interactive front-end website built with react framework. It allow
 3. Create `.env` file from `.env.example`
 4. Create an account and get your API key [here](https://www.yelp.com/developers/v3/manage_app)
 5. Insert your API key in `.env`
-6. Use CORS Anywhere by clicking on [Request temporary access to the demo server](https://cors-anywhere.herokuapp.com/corsdemo) button
-7. Run the project
+6. Run the project
     ```
    npm start
    ```
